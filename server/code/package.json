@@ -1,0 +1,23 @@
+{
+  "name": "meaww-face-detector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roopak A N <anroopak@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "multer": "^1.2.1",
+    "socket.io": "^1.7.2",
+    "socket.io-file": "^2.0.1",
+    "socket.io-file-client": "^2.0.1",
+    "uuid": "^3.0.1"
+  }
+}
